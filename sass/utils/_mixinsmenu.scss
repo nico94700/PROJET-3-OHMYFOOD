@@ -16,6 +16,7 @@
         map-get($map: $color3-menu__titre, $key: $color3) 80%
       );
       background-clip: text;
+      -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
   }
