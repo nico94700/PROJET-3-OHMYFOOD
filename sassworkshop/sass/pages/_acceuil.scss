@@ -1,0 +1,65 @@
+.menu {
+  //Aspect général d'un menu sur la page d'acceuil, voir "mixinsmenu" pour élément de personnalisation
+  height: 31vh;
+  width: 22vh;
+  min-height: 8rem;
+  min-width: 6rem;
+  margin: 1.5vh 1vh 1.5vh 1vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-shadow: 0.5px 0.5px 8px rgb(214, 214, 214);
+  opacity: 1;
+  transition: opacity 400ms;
+  &:hover {
+    opacity: 0.7;
+  }
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+  // MEDIA QUERIES ---------------------------------
+  @media all and (min-width: 1023px) {
+    height: 58vh;
+    width: 40vh;
+  }
+}
+
+.menu__ico {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 1.5rem;
+    height: 100%;
+    // MEDIA QUERIES ---------------------------------
+    @media all and (min-width: 1023px) {
+      width: 4rem;
+    }
+    @media all and (min-width: 1017px) and (min-height: 1000px) {
+      width: 4rem;
+    }
+    @media all and (min-width: 1017px) and (min-height: 1200px) {
+      width: 6rem;
+    }
+  }
+}
+
+.menu__titre {
+  margin-top: 0;
+  padding-left: 0.2rem;
+}
+
+.menu__menu {
+  margin-top: 0;
+}

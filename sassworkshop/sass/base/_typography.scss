@@ -1,0 +1,59 @@
+// Polices générales
+body {
+  font-family: "Montserrat", sans-serif, Arial, Helvetica;
+}
+
+#main_header {
+  font-family: "Montserrat", sans-serif, Arial, Helvetica;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -0.2rem;
+  //----MEDIA QUERIES
+  @media all and (min-height: 1000px) {
+    font-size: 1.5rem;
+  }
+  @media all and (min-width: 1000px) {
+    font-size: 1.5rem;
+  }
+}
+
+#menu_header {
+  h2 {
+    font-family: "Montserrat", sans-serif, Arial, Helvetica;
+    font-size: 1.2rem;
+  }
+}
+
+#main_footer {
+  font-family: "Montserrat", sans-serif, Arial, Helvetica;
+  font-weight: 500;
+  font-size: 0.9rem;
+  //----MEDIA QUERIES
+  @media all and (min-height: 1000px) {
+    font-size: 1.5rem;
+  }
+}
+
+.btn {
+  h2 {
+    font-family: "Montserrat", sans-serif, Arial, Helvetica;
+    font-weight: 400;
+    font-size: 1.1rem;
+    // MEDIA QUERIES ---------------------------------
+    @media all and (min-width: 1017px) and (min-height: 1000px) {
+      font-size: 1.6rem;
+    }
+    @media all and (max-width: 200px) {
+      font-size: 0.9rem;
+    }
+  }
+  &--anim {
+    div {
+      font-size: 7rem;
+      // MEDIA QUERIES ---------------------------------
+      @media all and (min-width: 1017px) and (min-height: 1000px) {
+        font-size: 9rem;
+      }
+    }
+  }
+}
