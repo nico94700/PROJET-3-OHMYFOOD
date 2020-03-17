@@ -1053,6 +1053,7 @@ body {
 .center_page--list {
   min-height: 0px;
   justify-content: flex-start;
+  display: block;
 }
 
 #menu_header h2 {

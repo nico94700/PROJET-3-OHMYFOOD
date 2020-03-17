@@ -2,6 +2,7 @@
   &--list {
     min-height: 0px; //Augmentation de la taille disponile sur les pages "list" car pas de section "soon"
     justify-content: flex-start;
+    display: block;
   }
 }
 
