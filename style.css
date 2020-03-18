@@ -967,7 +967,7 @@ body {
   order: 1;
   display: flex;
   min-height: 74.5%;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   position: relative;
   box-sizing: border-box;
