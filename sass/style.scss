@@ -1,5 +1,5 @@
-@import"utils/_variables.scss";
-@import "utils/_mixinsmenu.scss";
+@import"utils/_variables.scss"; //variables et fonctions
+@import "utils/_mixinsmenu.scss"; //mixins
 @import "utils/_mixinslist.scss";
 @import "base/_base.scss";
 @import "base/_typography.scss";
@@ -7,10 +7,10 @@
 @import "components/_btn.scss";
 @import "components/_menu.scss";
 @import "components/_list.scss";
-@import "layouts/_header.scss";
+@import "layouts/_header.scss";// BEM indépendants
 @import "layouts/_footer.scss";
 @import "layouts/_sectionp.scss";
-@import "pages/_acceuil.scss";
+@import "pages/_acceuil.scss"; // BEM réutilisables 
 @import "pages/_restaurants.scss";
 @import "pages/_legals.scss";
 @import "utils/_animations.scss";
