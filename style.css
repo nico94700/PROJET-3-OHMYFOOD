@@ -1012,7 +1012,7 @@ body {
 .menu a:hover {
   transform: scale(1.15);
 }
-@media all and (min-width: 1023px) {
+@media all and (min-width: 1024px) {
   .menu {
     height: 58vh;
     width: 40vh;
@@ -1028,7 +1028,7 @@ body {
   width: 1.5rem;
   height: 100%;
 }
-@media all and (min-width: 1023px) {
+@media all and (min-width: 1024px) {
   .menu__ico img {
     width: 4rem;
   }
