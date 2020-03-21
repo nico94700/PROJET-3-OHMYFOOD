@@ -155,22 +155,23 @@
     }
   }
 
-  @media all and (min-width: 768px) and (max-width: 1023px) {
-    width: 27rem;
-    height: 47rem;
+  @media all and (min-width: 1280px) and (max-width: 1281) {
+    width: 50rem;
+    height: 72rem;
     padding-left: 5rem;
     padding-right: 5rem;
     article {
-      margin-top: 2.5rem;
+      margin-top: 3.5rem;
     }
     &__step {
       img {
-        width: 10rem;
+        width: 15rem;
       }
     }
     &__footer {
       img {
-        transform: translateY(0.5rem);
+        transform: translateY(1rem);
+        width: 2.5rem;
       }
     }
   }

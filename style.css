@@ -1012,7 +1012,7 @@ body {
 .menu a:hover {
   transform: scale(1.15);
 }
-@media all and (min-width: 1023px) {
+@media all and (min-width: 1280px) {
   .menu {
     height: 58vh;
     width: 40vh;
@@ -1192,21 +1192,22 @@ body {
     width: 2.5rem;
   }
 }
-@media all and (min-width: 768px) and (max-width: 1023px) {
+@media all and (min-width: 1280px) and (max-width: 1281) {
   .list {
-    width: 27rem;
-    height: 47rem;
+    width: 50rem;
+    height: 72rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
   .list article {
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
   }
   .list__step img {
-    width: 10rem;
+    width: 15rem;
   }
   .list__footer img {
-    transform: translateY(0.5rem);
+    transform: translateY(1rem);
+    width: 2.5rem;
   }
 }
 @media all and (max-width: 767px) {
