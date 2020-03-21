@@ -533,7 +533,7 @@ body {
     font-size: 2rem;
   }
 }
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .list-1__header {
     font-size: 1.95rem;
   }
@@ -648,7 +648,7 @@ body {
     font-size: 2rem;
   }
 }
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .list-2__header {
     font-size: 1.5rem;
   }
@@ -745,7 +745,7 @@ body {
     font-size: 2rem;
   }
 }
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .list-3__header {
     font-size: 1.5rem;
   }
@@ -842,7 +842,7 @@ body {
     font-size: 2rem;
   }
 }
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .list-4__header {
     font-size: 1.5rem;
   }
@@ -1012,7 +1012,7 @@ body {
 .menu a:hover {
   transform: scale(1.15);
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1023px) {
   .menu {
     height: 58vh;
     width: 40vh;
@@ -1028,7 +1028,7 @@ body {
   width: 1.5rem;
   height: 100%;
 }
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1023px) {
   .menu__ico img {
     width: 4rem;
   }

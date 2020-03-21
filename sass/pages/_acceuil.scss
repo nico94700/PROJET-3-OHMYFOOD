@@ -29,7 +29,7 @@
     }
   }
   // MEDIA QUERIES ---------------------------------
-  @media all and (min-width: 1280px) {
+  @media all and (min-width: 1023px) {
     height: 58vh;
     width: 40vh;
   }
@@ -43,7 +43,7 @@
     width: 1.5rem;
     height: 100%;
     // MEDIA QUERIES ---------------------------------
-    @media all and (min-width: 1280px) {
+    @media all and (min-width: 1023px) {
       width: 4rem;
     }
     @media all and (min-width: 1017px) and (min-height: 1000px) {
