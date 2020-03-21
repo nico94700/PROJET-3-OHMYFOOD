@@ -960,7 +960,7 @@ body {
 }
 
 .center_page {
-  order: 1;
+  order: 2;
   display: flex;
   min-height: 74.5%;
   justify-content: center;
