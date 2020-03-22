@@ -1,6 +1,6 @@
 .center_page {
   &--list {
-    min-height: 0px; //Augmentation de la taille disponile sur les pages "list" car pas de section "soon"
+    min-height: 84.5%; //Augmentation de la taille disponile sur les pages "list" car pas de section "soon"
     justify-content: flex-start;
     
   }
@@ -95,7 +95,8 @@
 
   // MEDIA QUERIES ---------------------------------
 
-  @media all and (min-width: 1440px) {
+  @media all and (min-width: 1280px) {
+    display: flex;
     width: 50rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -124,7 +125,7 @@
     }
   }
 
-  @media all and (min-width: 1024px) and (max-width: 1439px) {
+  @media all and (min-width: 1280px) and (max-width: 1439px) {
     width: 50rem;
     padding-left: 5rem;
     padding-right: 5rem;
