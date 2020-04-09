@@ -456,6 +456,7 @@ body {
 }
 .list-1__title {
   background: -webkit-linear-gradient(-45deg, black 10%, black 60%, black 80%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -570,6 +571,7 @@ body {
 }
 .list-2__title {
   background: -webkit-linear-gradient(-45deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -684,6 +686,7 @@ body {
 }
 .list-3__title {
   background: -webkit-linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -780,6 +783,7 @@ body {
 }
 .list-4__title {
   background: -webkit-linear-gradient(-45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -950,15 +954,13 @@ body {
   justify-content: space-around;
   padding-left: 3vh;
   padding-right: 3vh;
-  margin: 22rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .center_page {
   order: 1;
   display: flex;
   min-height: 74.5%;
+  flex-direction: column;
   justify-content: center;
   position: relative;
   box-sizing: border-box;
@@ -1050,9 +1052,8 @@ body {
 }
 
 .center_page--list {
-  min-height: 0px;
+  min-height: 84.5%;
   justify-content: flex-start;
-  display: block;
 }
 
 #menu_header h2 {
@@ -1134,10 +1135,10 @@ body {
 .list__footer img {
   width: 1.5rem;
 }
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1280px) {
   .list {
+    display: flex;
     width: 50rem;
-    height: 72rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -1161,10 +1162,9 @@ body {
     width: 3rem;
   }
 }
-@media all and (min-width: 1024px) and (max-width: 1439px) {
+@media all and (min-width: 1280px) and (max-width: 1439px) {
   .list {
     width: 50rem;
-    height: 72rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -1191,7 +1191,6 @@ body {
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .list {
     width: 27rem;
-    height: 47rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -1256,7 +1255,6 @@ body {
 }
 
 #mention {
-  width: 50%;
   margin: 1rem auto 1rem auto;
   text-align: center;
 }
