@@ -1137,7 +1137,6 @@ body {
 }
 @media all and (min-width: 1280px) {
   .list {
-    display: flex;
     width: 50rem;
     padding-left: 5rem;
     padding-right: 5rem;
