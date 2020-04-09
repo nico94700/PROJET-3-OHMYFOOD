@@ -17,9 +17,8 @@ grid-template-columns: 360px 270px;
 
 .center_page {
   order:1; // selon le html l'élément ".center_page" est placé en 2nd position après "soon". On le remet ici en 1er (le titre de la section se trouve donc en bas de section)
-  display: flex;
-  min-height: 74.5%;
- flex-direction: column;
+  display: grid;
+grid-template-columns: 45px 108px;
   justify-content: center;
   position: relative;
   box-sizing: border-box;

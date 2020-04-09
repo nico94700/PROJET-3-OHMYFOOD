@@ -959,9 +959,8 @@ body {
 
 .center_page {
   order: 1;
-  display: flex;
-  min-height: 74.5%;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 45px 108px;
   justify-content: center;
   position: relative;
   box-sizing: border-box;
@@ -1054,7 +1053,8 @@ body {
 
 .center_page--list {
   min-height: 84.5%;
-  justify-content: flex-start;
+  justify-content: center;
+  display: contents;
 }
 
 #menu_header h2 {
