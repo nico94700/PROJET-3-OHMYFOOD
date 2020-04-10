@@ -689,7 +689,6 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-
 }
 .list-3 h3 {
   font-weight: normal;
@@ -957,10 +956,11 @@ body {
 
 .center_page {
   min-height: 84.5%;
-  order: 1px;
+  order: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   position: relative;
   box-sizing: border-box;
 }

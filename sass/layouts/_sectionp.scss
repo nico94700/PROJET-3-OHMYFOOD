@@ -16,15 +16,16 @@
 
 .center_page {
   min-height: 84.5%;
-  order: 1px; // selon le html l'élément ".center_page" est placé en 2nd position après "soon". On le remet ici en 1er (le titre de la section se trouve donc en bas de section)
+  order: 1; // selon le html l'élément ".center_page" est placé en 2nd position après "soon". On le remet ici en 1er (le titre de la section se trouve donc en bas de section)
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
   position: relative;
   box-sizing: border-box;
 }
-
-
+  
 
 #soon { //conteneur du bouton "Prochainement" de la page d'acceuil
   order:2; // selon le html l'élément "soon" est placé en 1er à des fins de logique sémantique ("soon" contient un "h2", titre de la section)
