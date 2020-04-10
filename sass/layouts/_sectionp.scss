@@ -6,6 +6,7 @@
   justify-content: center;
 }
 
+
 #section_menu { //Présentations des carte de l'accueil, élément du conteneur "center_page"
   display: flex;
   flex-flow: row wrap;
@@ -40,6 +41,5 @@ grid-template-columns: 45px 108px;
   -ms-flex-pack: center;
   -ms-flex-align: center;
 }
-
 
 
