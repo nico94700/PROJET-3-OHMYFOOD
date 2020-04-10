@@ -956,7 +956,7 @@ body {
 
 .center_page {
   min-height: 84.5%;
-  order: 1;
+  order: 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
