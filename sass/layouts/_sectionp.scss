@@ -2,8 +2,10 @@
   min-height: 84.5%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-content:center;
 }
-  #section_menu { //Présentations des carte de l'accueil, élément du conteneur "center_page"
+  .section_menu { //Présentations des carte de l'accueil, élément du conteneur "center_page"
   display: flex;
   flex-direction: column
   justify-content center
