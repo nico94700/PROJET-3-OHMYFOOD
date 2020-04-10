@@ -458,7 +458,6 @@ body {
   background: -webkit-linear-gradient(-45deg, black 10%, black 60%, black 80%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 .list-1 h3 {
   font-weight: normal;
@@ -573,7 +572,7 @@ body {
   background: -webkit-linear-gradient(-45deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  
 }
 .list-2 h3 {
   font-weight: normal;
@@ -688,7 +687,7 @@ body {
   background: -webkit-linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+ 
 }
 .list-3 h3 {
   font-weight: normal;
@@ -785,7 +784,7 @@ body {
   background: -webkit-linear-gradient(-45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  
 }
 .list-4 h3 {
   font-weight: normal;
