@@ -943,24 +943,23 @@ body {
 }
 .conteneur {
   min-height: 84.5%;
-  display: grid;
-  margin: 3.8rem;
-  grid-template-columns: 360px 270px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column justify-content space-around;
+  margin: auto;
 }
 
 #section_menu {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  flex-direction: column justify-content center position relative;
   padding-left: 3vh;
   padding-right: 3vh;
 }
 
 .center_page {
+  min-height: 84.5%;
   order: 1;
-  display: grid;
-  grid-template-columns: 45px 108px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   position: relative;
   box-sizing: border-box;
@@ -1374,6 +1373,5 @@ body {
     animation-timing-function: ease-out;
   }
 }
-
 
 /*# sourceMappingURL=style.css.map */
