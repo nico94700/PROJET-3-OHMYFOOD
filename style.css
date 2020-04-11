@@ -185,7 +185,6 @@ body {
 .menu__titre-1 {
   background: -webkit-linear-gradient(-45deg, black 10%, black 60%, black 80%);
   background-clip: text;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -946,15 +945,13 @@ body {
   min-height: 84.5%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
 }
 
 .section_menu {
   display: flex;
-  flex-direction: column;
-  justify-content: center
-  position relative;
+  flex-direction: column justify-content center position relative;
   padding-left: 3vh;
   padding-right: 3vh;
 }
@@ -1018,6 +1015,11 @@ body {
   .menu {
     height: 58vh;
     width: 40vh;
+    margin: 8vh 3vh 9vh 5vh;
+    margin-bottom: -1vh;
+    margin-left: 13vh;
+    margin-right: 18vh;
+    margin-top: 9vh;
   }
 }
 
