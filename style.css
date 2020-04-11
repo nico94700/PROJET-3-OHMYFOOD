@@ -951,7 +951,9 @@ body {
 
 .section_menu {
   display: flex;
-  flex-direction: column justify-content center position relative;
+  flex-direction: column;
+  justify-content: center
+  position relative;
   padding-left: 3vh;
   padding-right: 3vh;
 }
