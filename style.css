@@ -8,7 +8,7 @@ body a {
 }
 
 body {
-  font-family: "Montserrat", sans-serif, Arial, Helvetica;
+  font-family: "Devonshire", sans-serif, Arial, Helvetica;
 }
 
 #main_header {
@@ -467,7 +467,7 @@ body {
   font-size: 0.8rem;
 }
 .list-1 article ul {
-  font-family: "Devonshire";
+  font-family: "Devonshire;
   font-size: 0.6rem;
 }
 .list-1 article:nth-of-type(1) ul {
@@ -578,11 +578,11 @@ body {
   font-weight: normal;
 }
 .list-2__step h4 {
-  font-family:"Kurale";
+  font-family: "Crimson Text";
   font-size: 0.8rem;
 }
 .list-2 article ul {
-  font-family: "Kurale";
+  font-family: "Crimson Text";
   font-size: 0.8rem;
 }
 .list-2 article:nth-of-type(1) ul {
@@ -790,11 +790,11 @@ body {
   font-weight: normal;
 }
 .list-4__step h4 {
-  font-family: "Chilankat";
+  font-family: "Kaushan Script";
   font-size: 1rem;
 }
 .list-4 article ul {
-  font-family: "Chilanka";
+  font-family: "Kaushan Script";
   font-size: 0.8rem;
 }
 .list-4 article:nth-of-type(1) h4::after {
