@@ -463,11 +463,11 @@ body {
   font-weight: normal;
 }
 .list-1__step h4 {
-  font-family: "Kalam";
+  font-family: "Devonshire";
   font-size: 0.8rem;
 }
 .list-1 article ul {
-  font-family: "Kalam";
+  font-family: "Devonshire";
   font-size: 0.6rem;
 }
 .list-1 article:nth-of-type(1) ul {
@@ -578,11 +578,11 @@ body {
   font-weight: normal;
 }
 .list-2__step h4 {
-  font-family: "Crimson Text";
+  font-family: "Kurale";
   font-size: 0.8rem;
 }
 .list-2 article ul {
-  font-family: "Crimson Text";
+  font-family: "Kurale";
   font-size: 0.8rem;
 }
 .list-2 article:nth-of-type(1) ul {
@@ -693,11 +693,11 @@ body {
   font-weight: normal;
 }
 .list-3__step h4 {
-  font-family: "Caveat";
+  font-family: "Dancing Script";
   font-size: 1rem;
 }
 .list-3 article ul {
-  font-family: "Caveat";
+  font-family: "Dancing Script";
   font-size: 0.8rem;
 }
 .list-3 article:nth-of-type(1) h4::after {
@@ -790,11 +790,11 @@ body {
   font-weight: normal;
 }
 .list-4__step h4 {
-  font-family: "Caveat";
+  font-family: "Kaushan Script";
   font-size: 1rem;
 }
 .list-4 article ul {
-  font-family: "Caveat";
+  font-family: "Kaushan Script";
   font-size: 0.8rem;
 }
 .list-4 article:nth-of-type(1) h4::after {
