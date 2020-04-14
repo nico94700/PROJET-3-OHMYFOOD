@@ -184,7 +184,7 @@ body {
 
 .menu__titre-1 {
   background: -webkit-linear-gradient(-45deg, black 10%, black 60%, black 80%);
-  background-clip: text;
+
   -webkit-text-fill-color: transparent;
 }
 
@@ -251,7 +251,7 @@ body {
 
 .menu__titre-2 {
   background: -webkit-linear-gradient(-45deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
-  background-clip: text;
+
   -webkit-text-fill-color: transparent;
 }
 
@@ -318,7 +318,7 @@ body {
 
 .menu__titre-3 {
   background: -webkit-linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
-  background-clip: text;
+
   -webkit-text-fill-color: transparent;
 }
 
@@ -385,7 +385,7 @@ body {
 
 .menu__titre-4 {
   background: -webkit-linear-gradient(-45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
-  background-clip: text;
+
   -webkit-text-fill-color: transparent;
 }
 
@@ -456,7 +456,7 @@ body {
 }
 .list-1__title {
   background: -webkit-linear-gradient(-45deg, black 10%, black 60%, black 80%);
-  background-clip: text;
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -571,7 +571,7 @@ body {
 }
 .list-2__title {
   background: -webkit-linear-gradient(-45deg, #d17122 10%, #a6669a 60%, #6b30eb 80%);
-  background-clip: text;
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -686,7 +686,7 @@ body {
 }
 .list-3__title {
   background: -webkit-linear-gradient(-45deg, #1530b7 10%, #56a7e6 60%, #56a7e6 80%);
-  background-clip: text;
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -783,7 +783,7 @@ body {
 }
 .list-4__title {
   background: -webkit-linear-gradient(-45deg, #55924d 10%, #c8fa80 60%, #c8fa80 80%);
-  background-clip: text;
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -951,7 +951,9 @@ body {
 
 .section_menu {
   display: flex;
-  flex-direction: column justify-content center position relative;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   padding-left: 3vh;
   padding-right: 3vh;
 }
