@@ -92,7 +92,7 @@
       }
       article {
         ul {
-          font-family: map-get($map: $font-list, $key: $num-font2);
+          font-family: map-get($map: $font-list, $key: $num-font1);
           font-size: $size-ul-font;
         }
         //Dans le cas où la couleur des plats sur les menus, ainsi que leurs titres (entrées,plats,desserts), correspondent aux trois couleurs composant le titre du menu (cf."le chic à la française")
